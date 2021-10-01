@@ -14,16 +14,7 @@ int32_t main()
         int n;     cin>>n;
         int a[n];
        
-        for(int i=0;i<n;i++)
-        {
-            int d=fre[a[i]];
-            int u=(d*(d-1))/2;
-            s+=u;
-            for(int j=a[i]+a[i];j<N;j+=a[i])
-                fre[j]++;
-        }
-        cout<<s<<"\n";
     }
     return 0;
-  // change 3
+ // 4
 }
